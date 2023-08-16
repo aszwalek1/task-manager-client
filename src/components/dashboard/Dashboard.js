@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import Table from '../table/Table';
 
-const Dashboard = () => {
-    return (
-        <div>
-            Dashboard
-        </div>
-    )
-}
-export default Dashboard
+
+const Dashboard = ({tasks}) => {
+
+  return (
+    <div>
+      Dashboard
+      <Table tasks = {tasks} />
+    </div>
+  );
+};
+
+export default Dashboard;

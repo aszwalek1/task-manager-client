@@ -13,7 +13,7 @@ function App() {
 
     try {
       const response = await api.get("/api/v1/tasks");
-      console.log(response.data);
+      //console.log(response.data);
       setTasks(response.data);
     }
     catch(err) {
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route path="/" element={<Dashboard />}> </Route>
+          <Route path="/" element={<Dashboard tasks={tasks}/>}> </Route>
         </Route>
       </Routes>
     </div>
