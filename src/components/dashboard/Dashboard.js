@@ -12,6 +12,7 @@ const Dashboard = ({tasks}) => {
       <Navbar/>
       <br></br>
       <Link to="/new-task" className="new-task-button">New Task</Link>
+      <Link to="/admin" className="admin-button">Admin Page</Link>
       <Table tasks = {tasks} />
     </div>
   );

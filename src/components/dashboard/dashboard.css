@@ -1,4 +1,4 @@
-.new-task-button {
+.new-task-button, .admin-button {
     text-decoration: none;
     padding: 10px 25px;
     margin-left: 3em;

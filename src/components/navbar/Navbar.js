@@ -12,9 +12,10 @@ const Navbar = () => {
                 <div className="filter-section">
                     <p className="filter-by">Filter by:</p>
                     <select className="filter-dropdown">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="option1">Priority</option>
+                        <option value="option2">Date</option>
+                        <option value="option3">Status</option>
+                        <option value="option4">Author</option>
                     </select>
                     <button className="filter-button">Filter</button>
                 </div>

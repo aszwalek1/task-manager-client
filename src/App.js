@@ -4,6 +4,7 @@ import {useState, useEffect} from 'react';
 import Layout from './components/Layout';
 import {Routes, Route} from 'react-router-dom';
 import Dashboard from './components/dashboard/Dashboard';
+import Admin from './components/admin/Admin'; //it's working now
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Dashboard tasks={tasks}/>}> </Route>
+          <Route path="/admin" element={<Admin/>}> </Route>
         </Route>
       </Routes>
     </div>
