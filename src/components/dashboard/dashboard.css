@@ -1,0 +1,8 @@
+.new-task-button {
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-left: 3em;
+    background-color: #253f52;
+    color: lightgrey;
+    border-radius: 3px;
+}

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Table from '../table/Table';
 import Navbar from '../navbar/Navbar';
+import { Link } from 'react-router-dom';
+import './dashboard.css';
 
 
 const Dashboard = ({tasks}) => {
@@ -8,6 +10,8 @@ const Dashboard = ({tasks}) => {
   return (
     <div className='dashboard-container'>
       <Navbar/>
+      <br></br>
+      <Link to="/new-task" className="new-task-button">New Task</Link>
       <Table tasks = {tasks} />
     </div>
   );

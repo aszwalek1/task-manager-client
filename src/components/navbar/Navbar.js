@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import "./navbar.css";
 
 const Navbar = () => {
@@ -5,7 +7,7 @@ const Navbar = () => {
         <div className="navbar-container">
             <nav className="navbar">
                 <div className="dashboard-section">
-                    <a className="dashboard-name">Dashboard</a>
+                    <Link to="/" className="dashboard-name">Dashboard</Link>
                 </div>
                 <div className="filter-section">
                     <p className="filter-by">Filter by:</p>
