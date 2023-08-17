@@ -1,30 +1,28 @@
 .navbar-container {
-    background-color: #3e596b;
+    background-color: #192a37;
 }
 
 .dashboard-name {
-    color: #192a37;
+    color: white;
     text-decoration: none;
-    margin-left: 15px;
     font-size: 2em;
 }
 
 .filter-by {
-    color: #192a37;
+    color: white;
 }
 
 
 .filter-section {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 3.6em;
+    margin-left: 2.8em;
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 26%;
 }
 
 
@@ -33,14 +31,14 @@
     height: 26px;
     margin: 0 5px;
     background-color: #253f52;
-    color: #0c151b;
+    color: lightgrey;
     border-radius: 3px;
     border: 0 !important;
 }
 
 .filter-button {
     background-color: #253f52;
-    color: #0c151b;
+    color: lightgrey;
     border-radius: 3px;
     height: 26px;
     border: 0 !important;
