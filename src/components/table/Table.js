@@ -1,29 +1,35 @@
+import './table.css'
+
 const Table = ({tasks}) => {
     return (
         <table>
-            <thead>
+            <thead className="thead">
                 <tr>
-                <th>ID</th>
+                <th>Title</th>
+                <th>Priority</th>
+                <th>Description</th>
                 <th>Status</th>
                 <th>Date of Creation</th>
                 <th>Due Date</th>
                 <th>Author</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Priority</th>
                 </tr>
             </thead>
             <tbody>
                 {tasks?.map(task => (
                 <tr key={task._id}>
-                    <td>{task.taskId}</td>
+                    <td>{task.title}</td>
+                    <td>
+                        {task.priority === 'HIGH' ? (
+                            <span className="red-text">{task.priority}</span>
+                        ) : (
+                            task.priority
+                        )}
+                    </td>
+                    <td>{task.description}</td>
                     <td>{task.status}</td>
                     <td>{task.dateOfCreation}</td>
                     <td>{task.dueDate}</td>
                     <td>{task.author}</td>
-                    <td>{task.title}</td>
-                    <td>{task.description}</td>
-                    <td>{task.priority}</td>
                 </tr>
                 ))}
             </tbody>

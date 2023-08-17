@@ -1,0 +1,16 @@
+table {
+    margin: 20px 15px;
+}
+
+
+.thead {
+    font-size: large;
+}
+
+th, td {
+    padding: 8px 10px;
+}
+
+.red-text {
+    color: red;
+  }
