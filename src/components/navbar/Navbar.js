@@ -11,7 +11,6 @@ const Navbar = () => {
                     <Link to="/" className="dashboard-link">
                         <img src={logo} alt="Logo" className="logo-image" /> 
                     </Link>
-                    <p className='dashboard-name'>Dashboard</p>
                 </div>
                 <div className="filter-section">
                     <p className="filter-by">Filter by:</p>

@@ -1,10 +1,14 @@
 import React from 'react';
 import './admin.css';
-import AdminNav from '../admin-navbar/AdminNav';
+import Navbar from '../navbar/Navbar';
 
 const Admin = () => {
   return (
-    <AdminNav/>
+    <div>
+    <Navbar/>
+    <br></br>
+    <p className='admin-name'>Admin Page</p>
+    </div>
   );
 };
 

@@ -10,16 +10,10 @@
 .dashboard-section {
     display: flex;
     flex-direction: row;
-    height: 7em;
+    height: 6.4em;
 }
 
-.dashboard-name {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    margin-left: -4em;
-    margin-top: 0.8em;
-}
+
 
 .filter-by {
     color: white;

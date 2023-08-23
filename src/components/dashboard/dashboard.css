@@ -1,8 +1,15 @@
 .new-task-button, .admin-button {
     text-decoration: none;
     padding: 10px 25px;
-    margin-left: 3em;
+    margin-left: 1.7em;
     background-color: #253f52;
     color: lightgrey;
     border-radius: 3px;
+}
+
+.dashboard-name {
+    color: #253f52;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 0.8em;
 }
