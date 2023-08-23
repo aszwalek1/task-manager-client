@@ -2,11 +2,23 @@
     background-color: #192a37;
 }
 
+.logo-image {
+    width: 60%;
+    margin-top: -40px;
+}
+
+.dashboard-section {
+    display: flex;
+    flex-direction: row;
+    height: 7em;
+}
+
 .dashboard-name {
     color: white;
     text-decoration: none;
     font-size: 2em;
-    margin-left: 10px;
+    margin-left: -4em;
+    margin-top: 0.8em;
 }
 
 .filter-by {
@@ -17,15 +29,8 @@
 .filter-section {
     display: flex;
     flex-direction: row;
-    margin-left: 2.8em;
+    margin-right: 5%;
 }
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-}
-
 
 
 .filter-dropdown {
