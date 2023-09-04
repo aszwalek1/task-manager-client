@@ -14,32 +14,3 @@
 }
 
 
-
-.filter-by {
-    color: white;
-}
-
-
-.filter-section {
-    display: flex;
-    flex-direction: row;
-    margin-right: 5%;
-}
-
-
-.filter-dropdown {
-    height: 26px;
-    margin: 0 5px;
-    background-color: #253f52;
-    color: lightgrey;
-    border-radius: 3px;
-    border: 0 !important;
-}
-
-.filter-button {
-    background-color: #253f52;
-    color: lightgrey;
-    border-radius: 3px;
-    height: 26px;
-    border: 0 !important;
-}
